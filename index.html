@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tapajeet Basak's Portfolio</title>
+  
+  <style>
+    body {font-family: arial;}
+  @font-face {
+  font-family: 'conthrax';
+  src: url('fonts/Conthrax-semibold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} </style>
+  <style> h1, .section {
+  font-family: 'conthrax', sans-serif;
+}
+  .my-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    border-radius: 25px; }
+    #nav  {
+      position: sticky;
+      z-index: 9999;
+      top: 0;
+      padding: 15px 35px;
+  height: 50px;
+    border: 1px solid blue;
+    border-radius: 50px;
+      display: flex;
+  align-items: center;
+       margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+      width: 70vw;
+      
+justify-content: space-between;
+    }
+    html { scroll-behavior: smooth;
+         }
+    
+.section {
+  width: auto;
+  height: 50px;
+  margin: 0 auto;
+
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border:1px solid white;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.2);
+padding: 16px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+
+  </style>
+</head>
+<body>
+<div> <video
+  class="background-video"
+  autoplay
+  muted
+  loop
+  playsinline
+>
+  <source src="https://www.image2url.com/r2/default/videos/1782750914212-21c14d61-ce32-4768-8a52-ca22c18acdbe.webm" type="video/webm">
+</video>
+  <div id="overlay"></div> </div>
+<style>
+.background-video {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: -2;
+}
+  body {
+  color: #F8FAFC;
+  }
+  a {
+    color: white;
+}
+  hr {
+  border: 1px solid grey;
+  }
+  #overlay { position: fixed;
+           inset:0;
+           background: rgba(0, 0, 0,0.4);
+           z-index: -1;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           pointer-events: none;}
+
+</style>
+  <div id="nav">
+    <a href="#Education">Education</a>
+    <a href="#FAQs">FAQs</a>
+    <a href="https://www.instagram.com/its.chadduuuuuu07?igsh=MWU2OHJ1MWM0YmxyeA==>">Instagram</a>
+  </div>
+  
+  <br>
+  <br>
+   <div style="text-align:center;"><h1 class="section"> Introduction</h1> </div>
+  <br>
+  
+  <div class="hero-container">
+    <div class="hero-text-content"><h1 class="hero-text">Hi, I'm Tapajeet Basak</h1>
+<h3 class= hero-subtext> a Teen web developer</h3>
+    <h5> I'm Tapajeet, a former YouTuber and a teenager who is now learning web development and building a career as a web developer. </h5> </div>
+
+<img src="https://i.ibb.co/zhHrsGWS/IMG-20260630-182650.jpg" class="my-photo" alt=my-photo> </div>
+   
+  <style>.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.hero-text {
+    flex: 1;
+    margin: 0;
+    font-size: clamp(2rem, 5vw, 4rem);
+  padding-bottom: 0;
+}
+    .hero-subtext {
+      padding-top: 0;
+      margin-top: 0;
+    }
+
+.my-photo {
+    width: 40%;
+    max-width: 400px;
+    min-width: 120px;
+    height: auto;
+    border-radius: 25px;
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    .hero-subtext {
+    margin-top: 10px;
+}
+</style>
+  <br>
+  
+ 
+  
+  <br>
+  <section id="Education">
+<div style=" text-align: center;">   <h2 class=section>Education</h2> </div>
+  
+  <h3>Bachelor of XYZ</h3>
+  <p>XYZ University</p>
+  <p>20XX – 20XX</p>
+  <p>CGPA: X.XX / 10</p>
+
+  <h3>Higher Secondary (XYZ)</h3>
+  <p>XYZ School</p>
+  <p>20XX – 20XX</p>
+  <p>Percentage: XX%</p>
+
+  <h3>Secondary (XYZ)</h3>
+  <p>XYZ School</p>
+  <p>20XX - 20XX</p>
+  <p>Percentage: XX%</p>
+  </section>
+  <br>
+  <section id="FAQs">
+ <div style=" text-align: center;"> <h2 class="section">FAQs</h2> </div>
+    <h3>1.Example A question?</h3>
+    <p>Example A answer</p>
+     <h3>2.Example B question?</h3>
+    <p>Example B answer</p>
+         <h3>3.Example C question?</h3>
+    <p>Example C answer</p>
+  </section>
+  <footer style=" font-size: 10px; text-align: center;">© 2026 Tapajeet Basak. All Rights Reserved.</footer>
+</body>
+</html>
